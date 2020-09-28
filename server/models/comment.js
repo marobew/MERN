@@ -17,7 +17,6 @@ const CommentSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: "user",
   },
-  createToName: { type: String },
 });
 
 const Comment = mongoose.model('commment', CommentSchema);
