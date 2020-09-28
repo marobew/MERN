@@ -1,4 +1,4 @@
-import mongoose from 'moongoose';
+import mongoose from 'mongoose';
 import moment from 'moment';
 
 //Create Schema

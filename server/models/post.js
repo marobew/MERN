@@ -1,7 +1,7 @@
-import mongoose from 'moongoose';
+import mongoose from 'mongoose';
 import moment from 'moment';
 
-const PostSchema = new Mongoose.Schema({
+const PostSchema = new mongoose.Schema({
   title: {
     type: String,
     required: true,
